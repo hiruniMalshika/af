@@ -19,6 +19,12 @@
            document.write(JSON.stringify(data))
        })
        .catch(error => console.error(error))
+
+       car.drive();
+       car.balanceWheels();
+       console.log(Vehicle.VehicleCount);
+       console.log(car.type);
+
     </script>
 </body>
 </html>
